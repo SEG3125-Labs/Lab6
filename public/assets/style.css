@@ -2,17 +2,6 @@ html {
     background-color: white;
 }
 
-body {
-
-    max-width: 1000px;
-    margin: auto;
-    border: 2px solid black;
-    padding: 20px;
-    background-color: rgb(166, 218, 224);
-    background-size: cover;
-
-}
-
 .title {
 
     font-size: 55px;
