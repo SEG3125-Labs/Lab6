@@ -1,0 +1,78 @@
+html {
+    background-color: white;
+}
+
+body {
+
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(166, 218, 224);
+    background-size: cover;
+
+}
+
+.title {
+
+    font-size: 55px;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    padding: 1px;
+    color: #0737af;
+
+
+}
+
+.footer {
+    text-align: center;
+    padding: 1px;
+}
+
+.description h3 {
+
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+.q1,
+.q2,
+.q3,
+.q4 {
+    margin: auto;
+    width: 90%;
+    color: white;
+    background-color: black;
+    padding: 20px 20px 60px;
+}
+
+
+.q1 label {
+    color: red;
+}
+
+
+
+textarea {
+    width: 300px;
+
+    height: 100px;
+
+}
+
+button {
+    background-color: #ffff66;
+    font-size: large;
+    padding: 20px;
+    width: 100%;
+}

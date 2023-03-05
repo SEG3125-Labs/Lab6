@@ -1,0 +1,86 @@
+<html lang="en-US">
+
+<head>
+    <title>Survey Analysis</title>
+</head>
+
+<body>
+    <h1>Survey analysis</h1>
+    <h2>First Name</h2>
+    <ul>
+        <% for (var i=0; i<results[0].length; i++){ %>
+            <li>
+                <%= results[0][i].first_name %> : <%= results[0][i].count %>
+            </li>
+            <% } %>
+    </ul>
+    <h2>Last Name</h2>
+    <ul>
+        <% for (var i=0; i<results[1].length; i++){ %>
+            <li>
+                <%= results[1][i].last_name %> : <%= results[1][i].count %>
+            </li>
+            <% } %>
+    </ul>
+
+
+    <h2>Rating</h2>
+    <ul>
+        <% for (var i=0; i<results[2].length; i++){ %>
+            <li>
+                <%= results[2][i].Rating %> : <%= results[2][i].count %>
+            </li>
+            <% } %>
+    </ul>
+    <h2>Colour</h2>
+    <ul>
+        <% for (var i=0; i<results[3].length; i++){ %>
+            <li>
+                <%= results[3][i].Colour %> : <%= results[3][i].count %>
+            </li>
+            <% } %>
+    </ul>
+    <h2>favorite</h2>
+    <ul>
+        <% for (var i=0; i<results[4].length; i++){ %>
+            <li>
+                <%= results[4][i].favorite %> : <%= results[4][i].count %>
+            </li>
+            <% } %>
+    </ul>
+    <h2>married</h2>
+    <ul>
+        <% for (var i=0; i<results[5].length; i++){ %>
+            <li>
+                <%= results[5][i].married %> : <%= results[5][i].count %>
+            </li>
+            <% } %>
+    </ul>
+    <h2>graduated</h2>
+    <ul>
+        <% for (var i=0; i<results[6].length; i++){ %>
+            <li>
+                <%= results[6][i].graduated %> : <%= results[6][i].count %>
+            </li>
+            <% } %>
+    </ul>
+    <h2>age</h2>
+    <ul>
+        <% for (var i=0; i<results[7].length; i++){ %>
+            <li>
+                <%= results[7][i].age %> : <%= results[7][i].count %>
+            </li>
+            <% } %>
+    </ul>
+
+    <h2>Commnet</h2>
+    <ul>
+        <% for (var i=0; i<results[8].length; i++){ %>
+            <li>
+                <%= results[8][i].comment %> : <%= results[8][i].count %>
+            </li>
+            <% } %>
+    </ul>
+</body>
+
+</html>
